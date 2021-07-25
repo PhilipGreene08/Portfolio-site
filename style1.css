@@ -131,15 +131,6 @@ header {
     justify-content: center;   
 }
 
-/* .jobs .btn a {
-   border: 1px #333 solid;
-   border-radius: 5px;
-   margin: 10px;
-   padding: 10px;
-   background-color: #333;
-   color: var(--light-color); 
-} */
-
 .btn a{
     border: 1px #333 solid;
    border-radius: 5px;
@@ -193,6 +184,48 @@ header {
     padding: 5px 10px;
     background-color: var(--light-color);
     border-radius: 20px;
+}
+
+/* about me page */
+.aboutme {
+    margin: auto;
+    max-width: 1100px;
+    overflow: none;
+    padding: 20px 0; 
+}
+
+.aboutme-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.aboutme-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.aboutme-picture img{
+    border-radius: 50%;
+}
+
+.aboutme-name {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme-bio {
+    line-height: 1.5;
+}
+
+.aboutme-bio h2 {
+    display: flex;
+    justify-content: center;
 }
 
 /* footer */
