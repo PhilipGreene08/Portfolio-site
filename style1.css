@@ -12,6 +12,11 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'dosis', sans-serif;
+    font-size: 1.3rem;
+}
+
 a {
     text-decoration: none;
 }
@@ -162,13 +167,20 @@ header {
 }
 
 .tagline-text {
-    padding: 10px 0
+    padding: 10px 0;
+    text-transform: uppercase;
 }
 
 .skills {
     margin: auto;
     max-width: 1100px;
     overflow: none; 
+}
+
+.skills-content h3 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 .skills-content ul{
